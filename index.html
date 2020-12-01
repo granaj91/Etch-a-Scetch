@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <div class="center">
+            <div>
+                <h1>Etch-a-Sketch</h1>
+            </div>
+            <div>
+                <div id="grid" class="grid-container"></div>
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="10" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="input-container">
+                <h5 id="slider-range" class="display-range">Pixel Size: </h5>
+                <button class="display-clear" onClick="clearGrid()">Clear</button>
+            </div>
+        </div>
+        
+        <script src="etch-a-scetch.js"></script>
+    </body>
+</html>
