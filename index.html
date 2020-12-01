@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="etch-a-scetch.js"></script>
-        <style src="styles/main.css"></style>
+        <link rel="stylesheet" href="style/main.css">
     </head>
     <body>
-        <div class="flex-container">
+        <div class="center">
+            <div>
+                <h1>Etch-a-Sketch</h1>
+                <button onClick="clearGrid()">Clear</button>
+            </div>
+            <div id="grid" class="grid-container"></div>
         </div>
+        
+        <script src="etch-a-scetch.js"></script>
     </body>
 </html>
