@@ -1,6 +1,6 @@
 const HEIGHT = 480;
-let cellNum = 16;
 var slider = document.getElementById("myRange");
+let cellNum = slider.value;
 var output = document.getElementById("slider-range");
 output.innerHTML = "Pixel Size: "  + slider.value; 
 
